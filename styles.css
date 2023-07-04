@@ -14,6 +14,8 @@ div {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    text-align: center;
+
   }
   
   h1 {
@@ -23,12 +25,7 @@ div {
     font-size: 9vh;
   }
 
-  h3 {
-
-    text-align: center;
-    color: rgb(55, 73, 151);
-
-  }
+ 
   
   p.description {
     font-family: 'Times New Roman', Times, serif;
@@ -39,5 +36,4 @@ div {
     margin-left: 10%;
     margin-right: 10%;
   }
-  
   
