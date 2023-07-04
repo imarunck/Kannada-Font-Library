@@ -1,6 +1,36 @@
+
+
 div {
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 100vh;
   }
+  a {
+    color: rgb(55, 73, 151);
+  }
+
+  body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 9vh;
+  }
+  
+  p.description {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-style: italic;
+    color: #777;
+    font-size: 3vh;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  
