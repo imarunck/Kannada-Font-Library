@@ -1,39 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;}
 
-div {
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-  }
-  a {
-    color: rgb(55, 73, 151);
-  }
+header h1 {
+  margin: 0;
+  text-align: center;
+}
 
-  body {
-    background-color: #f2f2f2;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+section {
+  padding: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
 
-  }
-  
-  h1 {
-    text-align: center;
-    color: #333;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 9vh;
-  }
+section h2 {
+  margin-top: 0;
+  text-align: center;
+}
 
- 
-  
-  p.description {
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    font-style: italic;
-    color: #777;
-    font-size: 3vh;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-  
+section p {
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+section h3 {
+  text-align: center;
+}
+
+table {
+
+  width: 100%;
+  text-align: center;
+
+}
+
+th.head {
+background-color: bisque;
+}
+
+td.catag {
+background-color: azure;
+
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+footer {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
