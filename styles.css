@@ -62,3 +62,15 @@ footer {
   padding: 20px;
   text-align: center;
 }
+
+
+/* Responsive adjustments */
+@media screen and (max-width: 600px) {
+  header {
+    text-align: center;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+}
