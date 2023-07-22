@@ -1,6 +1,6 @@
 # Kannada-Font-Library
 https://imarunck.github.io/Kannada-Font-Library/ \
-A directory of Kannada fonts available across the internet.
+A directory of Kannada fonts available across the internet.\
 Discover an extensive collection of Kannada fonts in the Kannada-Font-Library. \
 Find copyright, Unicode specs, and download options for all available fonts. \
 
