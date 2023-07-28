@@ -5,24 +5,45 @@ body {
 }
 
 header {
-  background-color: #333;
+  background-color: #ffffff;
   color: #fff;
   padding: 20px;
-  text-align: center;}
-
-header h1 {
-  margin: 0;
   text-align: center;
+  
+}
+.header {
+align-self: center;
 }
 
+header .header img {
+
+  float: left;
+  width: 20%;
+  height: 20%;
+  background: #ffffff;
+
+}
+
+header .header h1 {
+  position: center;
+  text-align: center;
+  top: 18px;
+  left: 10px;
+  color: black;
+  margin-right: 15%;
+  font-size: 60px;
+
+}
+
+
+
 section {
-  padding: 20px;
+  padding: 40px;
   margin-left: 5%;
   margin-right: 5%;
 }
 
 section h2 {
-  margin-top: 0;
   text-align: center;
 }
 
@@ -30,6 +51,7 @@ section p {
   padding-left: 10%;
   padding-right: 10%;
   text-align: center;
+  font-size: 20px;
 }
 section h3 {
   text-align: center;
