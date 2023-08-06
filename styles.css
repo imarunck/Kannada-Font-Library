@@ -73,6 +73,11 @@ background-color: rgb(253, 188, 103);
 
 }
 
+td.catagi {
+  background-color: rgb(253, 145, 103);
+  
+  }
+
 th, td {
   padding: 8px;
   text-align: left;
