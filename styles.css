@@ -13,13 +13,14 @@ header {
 }
 .header {
 align-self: center;
+
 }
 
 header .header img {
 
   float: left;
-  width: 20%;
-  height: 20%;
+  width: 15%;
+  height: 15%;
   background: #ffffff;
 
 }
@@ -35,10 +36,18 @@ header .header h1 {
 
 }
 
+header p{
+  color: black;
+  margin-right: 5%;
+  margin-left: 5%;
+  font-size: large;
+
+}
+
 
 
 section {
-  padding: 40px;
+  padding: 20px;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -65,16 +74,16 @@ table {
 }
 
 th.head {
-background-color: bisque;
+background-color: rgb(255, 150, 51);
 }
 
 td.catag {
-background-color: rgb(253, 188, 103);
+background-color: rgba(253, 188, 103, 0.815);
 
 }
 
 td.catagi {
-  background-color: rgb(253, 145, 103);
+  background-color: rgba(255, 165, 130, 0.822);
   
   }
 
