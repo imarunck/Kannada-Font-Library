@@ -2,6 +2,8 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 header {
@@ -48,8 +50,7 @@ header p{
 
 section {
   padding: 20px;
-  margin-left: 5%;
-  margin-right: 5%;
+
 }
 
 section h2 {
@@ -71,7 +72,10 @@ table {
   width: 100%;
   text-align: center;
 
+
 }
+table {border-collapse: collapse;}
+
 
 th.head {
 background-color: rgb(255, 150, 51);
@@ -83,14 +87,20 @@ background-color: rgba(253, 188, 103, 0.815);
 }
 
 td.catagi {
-  background-color: rgba(255, 165, 130, 0.822);
+  background-color: rgba(253, 188, 103, 0.815);
   
   }
 
 th, td {
-  padding: 8px;
+  padding: 10px;
   text-align: left;
-  border: 1px solid #ddd;
+  border: solid .5px;
+  border-color: rgb(156, 156, 156);
+
+
+  font-size: x-large;
+  border-collapse: separate;
+  
 }
 
 footer {
@@ -100,13 +110,3 @@ footer {
 }
 
 
-/* Responsive adjustments */
-@media screen and (max-width: 600px) {
-  header {
-    text-align: center;
-  }
-  
-  .table-container {
-    overflow-x: auto;
-  }
-}
