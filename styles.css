@@ -34,7 +34,7 @@ header .header h1 {
   left: 10px;
   color: black;
   margin-right: 15%;
-  font-size: 60px;
+  font-size: 5vw;
 
 }
 
@@ -42,7 +42,7 @@ header p{
   color: black;
   margin-right: 5%;
   margin-left: 5%;
-  font-size: large;
+  font-size: 1.8vh;
 
 }
 
@@ -98,7 +98,7 @@ th, td {
   border-color: rgb(156, 156, 156);
 
 
-  font-size: x-large;
+  font-size: 1.5vw;
   border-collapse: separate;
   
 }
