@@ -4,6 +4,7 @@
 * ಫಾಂಟ್‌ಗಳ ಕೃತಿಸ್ವಾಮ್ಯ, ಯೂನಿಕೋಡ್ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಆಯ್ಕೆಗಳನ್ನು ಪಡೆಯಿರಿ./ Find copyright, Unicode specs, and download options for all fonts.
 * ವಿನ್ಯಾಸಕರು, ಡೆವಲಪರ್‌ಗಳು ಮತ್ತು ಕನ್ನಡ ಉತ್ಸಾಹಿಗಳಿಗೆ ಸೂಕ್ತವಾಗಿದೆ./ Ideal for designers, developers, and enthusiasts.
 * ಫಾಂಟ್ ಪೂರ್ವವೀಕ್ಷಣೆಯೊಂದಿಗೆ. / with font preview.
+* ([imarunck.github.io/Kannada-Font-Library](https://imarunck.github.io/Kannada-Font-Library/))
   
 ### 👉 [download all open-source fonts at once](https://github.com/imarunck/Kannada-Font-Library/archive/refs/heads/main.zip)
 <p align="center"><img src="https://github.com/imarunck/Kannada-Font-Library/assets/76737603/142d6644-dc2c-43a7-9e79-76dca08002c1" width="512" height="512" alt="logo" /></p>
