@@ -33,8 +33,16 @@ header .header h1 {
   top: 18px;
   left: 10px;
   color: black;
-  margin-right: 15%;
   font-size: 5vw;
+
+}
+header .header h2 {
+  position: center;
+  text-align: center;
+  left: 10px;
+  color: black;
+  margin-bottom: 5%;
+  font-size: 1.2vw;
 
 }
 
@@ -55,6 +63,8 @@ section {
 
 section h2 {
   text-align: center;
+  color: black;
+
 }
 
 section p {
