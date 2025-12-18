@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="kn">
+<head>
+  <meta charset="UTF-8">
+  <title>Kannada Font Library</title>
+  <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>   <div class="page">
+
+
+<header>
+  <h1>Kannada Font Library</h1>
+  <p>Discover Kannada fonts from organizations and individuals</p>
+</header>
+
+<section class="controls">
+  <select id="filterType">
+    <option value="all">All Types</option>
+    <option value="org">Organization</option>
+    <option value="individual">Individual</option>
+  </select>
+
+  <select id="filterLicense">
+    <option value="all">All Licenses</option>
+    <option value="OFL">OFL</option>
+    <option value="Commercial">Commercial</option>
+    <option value="End User">End User</option>
+  </select>
+
+  <input
+    type="text"
+    id="testText"
+    placeholder="ಕನ್ನಡದಲ್ಲಿ ಬರೆಯಿರಿ…"
+    value="ಇಲ್ಲಿ ಬರೆಯಿರಿ..." />
+
+  <!-- Font size control -->
+  <label class="size-control">
+    Size
+    <input
+      type="range"
+      id="fontSize"
+      min="18"
+      max="72"
+      value="38" />
+  </label>
+
+  <!-- Font count -->
+  <div id="fontCount" class="font-count">
+    0 Fonts
+  </div>
+</section>
+
+
+
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Font</th>
+      <th>Org / Individual</th>
+      <th>Download</th>
+    </tr>
+  </thead>
+  <tbody id="fontTable"></tbody>
+</table>
+
+<script src="main.js"></script>
+</div> </body>
+</html>

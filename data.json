@@ -1,0 +1,435 @@
+{
+  "fonts": [
+    {
+      "id": 1,
+      "name": "ATS Bandipura",
+      "foundry": "Akshara Type Studio",
+      "callout": "ಎಟಿಎಸ್ ಬಂಡೀಪುರ",
+      "type": "org",
+      "license": "End User",
+      "download": "https://aksharatypestudio.in/fonts/bandipura/",
+      "fontFile": "ATSBandipura.woff2"
+    },
+    {
+      "id": 2,
+      "name": "ATS Bengaluru",
+      "foundry": "Akshara Type Studio",
+      "callout": "ಎಟಿಎಸ್ ಬೆಂಗಳೂರು",
+      "type": "org",
+      "license": "End User",
+      "download": "https://aksharatypestudio.in/fonts/bengaluru/",
+      "fontFile": "ATSBengaluru.otf"
+    },
+        {
+      "id": 101,
+      "name": "ATS Bengaluru LED",
+      "foundry": "Akshara Type Studio",
+      "callout": "ಎಟಿಎಸ್ ಬೆಂಗಳೂರು LED",
+      "type": "org",
+      "license": "End User",
+      "download": "https://aksharatypestudio.in/fonts/bengaluru/led",
+      "fontFile": "ATSBengaluru-LED.otf"
+    },
+    {
+      "id": 3,
+      "name": "ATS Chikkamagaluru",
+      "foundry": "Akshara Type Studio",
+      "callout": "ಎಟಿಎಸ್ ಚಿಕ್ಕಮಗಳೂರು",
+      "type": "org",
+      "license": "End User",
+      "download": "https://aksharatypestudio.in/fonts/chikkamagaluru/",
+      "fontFile": "ATSChikkamagaluru.otf"
+    },
+
+    {
+      "id": 4,
+      "name": "Anek Kannada",
+      "foundry": "ekType",
+      "callout": "ಅನೆಕ ಕನ್ನಡ",
+      "type": "org",
+      "license": "OFL",
+      "download": "https://fonts.google.com/specimen/Anek+Kannada",
+      "fontFile": "AnekKannada.ttf"
+    },
+    {
+      "id": 5,
+      "name": "Baloo Tamma 2",
+      "foundry": "ekType",
+      "callout": "ಬಲೂ ತಮ್ಮ ೨",
+      "type": "org",
+      "license": "OFL",
+      "download": "https://fonts.google.com/specimen/Baloo+Tamma+2",
+      "fontFile": "BalooTamma2.ttf"
+    },
+    {
+      "id": 6,
+      "name": "Sama Kannada",
+      "foundry": "ekType",
+      "callout": "ಸಮ ಕನ್ನಡ",
+      "type": "org",
+      "license": "Commercial",
+      "download": "https://ektype.in/sama-kannada.html",
+      "fontFile": "SamaKannada.ttf"
+    },
+
+    {
+      "id": 7,
+      "name": "Noto Sans Kannada",
+      "foundry": "Google",
+      "callout": "ನೋಟೋ ಸಾನ್ಸ್ ಕನ್ನಡ",
+      "type": "org",
+      "license": "OFL",
+      "download": "https://fonts.google.com/noto/specimen/Noto+Sans+Kannada",
+      "fontFile": "NotoSansKannada.ttf"
+    },
+    {
+      "id": 8,
+      "name": "Noto Serif Kannada",
+      "foundry": "Google",
+      "callout": "ನೋಟೋ ಸೆರಿಫ್ ಕನ್ನಡ",
+      "type": "org",
+      "license": "OFL",
+      "download": "https://fonts.google.com/noto/specimen/Noto+Serif+Kannada",
+      "fontFile": "NotoSerifKannada.ttf"
+    },
+
+    {
+      "id": 9,
+      "name": "Akaya Kanadaka",
+      "foundry": "Vaishnavi Murthy",
+      "callout": "ಅಕಯ ಕನಡಕ",
+      "type": "individual",
+      "license": "OFL",
+      "download": "https://fonts.google.com/specimen/Akaya+Kanadaka",
+      "fontFile": "AkayaKanadaka.ttf"
+    },
+    {
+      "id": 10,
+      "name": "Anchu",
+      "foundry": "Arun CK",
+      "callout": "ಅಂಚು",
+      "type": "individual",
+      "license": "OFL",
+      "download": "https://type.arunck.com/fonts/anchu/",
+      "fontFile": "AnchuKannada.ttf"
+    },
+    {
+      "id": 11,
+      "name": "Benne",
+      "foundry": "John Harrington",
+      "callout": "ಬೆಣ್ಣೆ",
+      "type": "individual",
+      "license": "OFL",
+      "download": "https://fonts.google.com/specimen/Benne",
+      "fontFile": "Benne.ttf"
+    },
+    {
+      "id": 12,
+      "name": "Hubballi",
+      "foundry": "Erin McLaughlin",
+      "callout": "ಹುಬ್ಬಳ್ಳಿ",
+      "type": "individual",
+      "license": "OFL",
+      "download": "https://fonts.google.com/specimen/Hubballi",
+      "fontFile": "Hubballi.ttf"
+    },
+
+    {
+      "id": 13,
+      "name": "Navilu",
+      "foundry": "Aravinda Vishwanathapura",
+      "callout": "ನವಿಲು",
+      "type": "individual",
+      "license": "OFL",
+      "download": "https://github.com/aravindavk/Navilu",
+      "fontFile": null
+    },
+    {
+      "id": 14,
+      "name": "Nishchaya",
+      "foundry": "Kishore Chandra",
+      "callout": "ನಿಶ್ಚಯ",
+      "type": "individual",
+      "license": "OFL",
+      "download": "https://github.com/kishorechan/Nishchaya",
+      "fontFile": null
+    },
+
+    {
+      "id": 15,
+      "name": "Akhand Kannada",
+      "foundry": "Indian Type Foundry",
+      "callout": "ಅಖಂಡ ಕನ್ನಡ",
+      "type": "org",
+      "license": "Commercial",
+      "download": "https://www.indiantypefoundry.com/fonts",
+      "fontFile": null
+    },
+    {
+      "id": 16,
+      "name": "Kohinoor Kannada",
+      "foundry": "Indian Type Foundry",
+      "callout": "ಕೋಹಿನೂರ್ ಕನ್ನಡ",
+      "type": "org",
+      "license": "Commercial",
+      "download": "https://www.indiantypefoundry.com/fonts",
+      "fontFile": null
+    },
+
+    {
+      "id": 17,
+      "name": "Adobe Kannada",
+      "foundry": "Adobe",
+      "callout": "ಅಡೋಬ್ ಕನ್ನಡ",
+      "type": "org",
+      "license": "Commercial",
+      "download": "https://www.adobe.com/",
+      "fontFile": null
+    },
+    {
+      "id": 18,
+      "name": "Nirmala UI Kannada",
+      "foundry": "Microsoft",
+      "callout": "ನಿರ್ಮಲಾ ಯುಐ ಕನ್ನಡ",
+      "type": "org",
+      "license": "Commercial",
+      "download": "https://learn.microsoft.com/en-us/typography/font-list/nirmala-ui",
+      "fontFile": null
+    },
+        {
+      "id": 19,
+      "name": "Karnata F-Kittel",
+      "foundry": "Sanchaya",
+      "callout": "ಕರ್ನಾಟಕ ಕಿಟ್ಟೆಲ್",
+      "type": "org",
+      "license": "OFL",
+      "download": "https://github.com/sanchaya/karnata-f-kittel-font",
+      "fontFile": null
+    },
+
+    {
+      "id": 20,
+      "name": "Kedage Kannada",
+      "foundry": "Government of Karnataka",
+      "callout": "ಕೆಡಗೆ ಕನ್ನಡ",
+      "type": "org",
+      "license": "OFL",
+      "download": "https://ceg.karnataka.gov.in/frontend/opt1/fonts/kannada/kedage_kannada_fonts.zip",
+      "fontFile": null
+    },
+    {
+      "id": 21,
+      "name": "Lohit Kannada",
+      "foundry": "Government of Karnataka",
+      "callout": "ಲೋಹಿತ್ ಕನ್ನಡ",
+      "type": "org",
+      "license": "OFL",
+      "download": "https://ceg.karnataka.gov.in/frontend/opt1/fonts/kannada/Lohit_kannada_fonts.zip",
+      "fontFile": null
+    },
+    {
+      "id": 22,
+      "name": "Mallige Kannada",
+      "foundry": "Government of Karnataka",
+      "callout": "ಮಲ್ಲಿಗೆ ಕನ್ನಡ",
+      "type": "org",
+      "license": "OFL",
+      "download": "https://ceg.karnataka.gov.in/frontend/opt1/fonts/kannada/mallige_kannada_fonts.zip",
+      "fontFile": null
+    },
+    {
+      "id": 23,
+      "name": "Murty Kannada",
+      "foundry": "Government of Karnataka",
+      "callout": "ಮೂರ್ತಿ ಕನ್ನಡ",
+      "type": "org",
+      "license": "OFL",
+      "download": "https://ceg.karnataka.gov.in/frontend/opt1/fonts/kannada/Murty_Kannada_fonts.zip",
+      "fontFile": null
+    },
+    {
+      "id": 24,
+      "name": "Sakal Bharati Kannada",
+      "foundry": "Government of Karnataka",
+      "callout": "ಸಕಲಭಾರತೀ ಕನ್ನಡ",
+      "type": "org",
+      "license": "OFL",
+      "download": "https://ceg.karnataka.gov.in/frontend/opt1/fonts/kannada/SakalBharati_kannada_fonts.zip",
+      "fontFile": null
+    },
+
+    {
+      "id": 25,
+      "name": "Kar K S Narasimhaswamy",
+      "foundry": "Government of Karnataka",
+      "callout": "ಕೆ ಎಸ್ ನರಸಿಂಹಸ್ವಾಮಿ",
+      "type": "org",
+      "license": "OFL",
+      "download": "https://github.com/imarunck/fonts",
+      "fontFile": null
+    },
+    {
+      "id": 26,
+      "name": "Kar Gopalakrishna Adiga",
+      "foundry": "Government of Karnataka",
+      "callout": "ಗೋಪಾಲಕೃಷ್ಣ ಅಡಿಗ",
+      "type": "org",
+      "license": "OFL",
+      "download": "https://github.com/imarunck/fonts",
+      "fontFile": null
+    },
+    {
+      "id": 27,
+      "name": "Kar Da Ra Bendre",
+      "foundry": "Government of Karnataka",
+      "callout": "ದ. ರಾ. ಬೇಂದ್ರೆ",
+      "type": "org",
+      "license": "OFL",
+      "download": "https://github.com/imarunck/fonts",
+      "fontFile": null
+    },
+    {
+      "id": 28,
+      "name": "Kar Vi Kru Gokak",
+      "foundry": "Government of Karnataka",
+      "callout": "ವಿ. ಕು. ಗೋಕುಲ",
+      "type": "org",
+      "license": "OFL",
+      "download": "https://github.com/imarunck/fonts",
+      "fontFile": null
+    },
+    {
+      "id": 29,
+      "name": "Kar U R Ananthamurthy",
+      "foundry": "Government of Karnataka",
+      "callout": "ಯು. ಆರ್. ಅನಂತಮೂರ್ತಿ",
+      "type": "org",
+      "license": "OFL",
+      "download": "https://github.com/imarunck/fonts",
+      "fontFile": null
+    },
+
+    {
+      "id": 30,
+      "name": "Inchara",
+      "foundry": "KAGAPA",
+      "callout": "ಇಂಚರ",
+      "type": "org",
+      "license": "OFL",
+      "download": "https://kagapa.in/kannada/",
+      "fontFile": null
+    },
+    {
+      "id": 31,
+      "name": "Nudi Parijatha",
+      "foundry": "KAGAPA",
+      "callout": "ನುಡಿ ಪರಿಝಾತ",
+      "type": "org",
+      "license": "OFL",
+      "download": "https://kagapa.in/kannada/",
+      "fontFile": null
+    },
+    {
+      "id": 32,
+      "name": "Nudi Uni 01",
+      "foundry": "KAGAPA",
+      "callout": "ನುಡಿ ಯುನಿ ೦೧",
+      "type": "org",
+      "license": "OFL",
+      "download": "https://kagapa.in/kannada/",
+      "fontFile": null
+    },
+    {
+      "id": 33,
+      "name": "Nudi Uni 02",
+      "foundry": "KAGAPA",
+      "callout": "ನುಡಿ ಯುನಿ ೦೨",
+      "type": "org",
+      "license": "OFL",
+      "download": "https://kagapa.in/kannada/",
+      "fontFile": null
+    },
+
+    {
+      "id": 34,
+      "name": "Akhand Kannada",
+      "foundry": "Indian Type Foundry",
+      "callout": "ಅಖಂಡ ಕನ್ನಡ",
+      "type": "org",
+      "license": "Commercial",
+      "download": "https://www.indiantypefoundry.com/fonts",
+      "fontFile": null
+    },
+    {
+      "id": 35,
+      "name": "Belur Kannada",
+      "foundry": "Indian Type Foundry",
+      "callout": "ಬೇಲೂರು ಕನ್ನಡ",
+      "type": "org",
+      "license": "Commercial",
+      "download": "https://www.indiantypefoundry.com/fonts",
+      "fontFile": null
+    },
+    {
+      "id": 36,
+      "name": "Kohinoor Kannada",
+      "foundry": "Indian Type Foundry",
+      "callout": "ಕೋಹಿನೂರ್ ಕನ್ನಡ",
+      "type": "org",
+      "license": "Commercial",
+      "download": "https://www.indiantypefoundry.com/fonts",
+      "fontFile": null
+    },
+    {
+      "id": 37,
+      "name": "Sandur Kannada",
+      "foundry": "Indian Type Foundry",
+      "callout": "ಸಂದೂರು ಕನ್ನಡ",
+      "type": "org",
+      "license": "Commercial",
+      "download": "https://www.indiantypefoundry.com/fonts",
+      "fontFile": null
+    },
+
+    {
+      "id": 38,
+      "name": "Adobe Kannada",
+      "foundry": "Adobe",
+      "callout": "ಅಡೋಬ್ ಕನ್ನಡ",
+      "type": "org",
+      "license": "Commercial",
+      "download": "https://www.adobe.com/",
+      "fontFile": null
+    },
+    {
+      "id": 39,
+      "name": "Nirmala UI Kannada",
+      "foundry": "Microsoft",
+      "callout": "ನಿರ್ಮಲಾ ಯುಐ ಕನ್ನಡ",
+      "type": "org",
+      "license": "Commercial",
+      "download": "https://learn.microsoft.com/en-us/typography/font-list/nirmala-ui",
+      "fontFile": null
+    },
+    {
+      "id": 40,
+      "name": "Tunga",
+      "foundry": "Microsoft",
+      "callout": "ತುಂಗಾ",
+      "type": "org",
+      "license": "Commercial",
+      "download": "https://learn.microsoft.com/en-us/typography/font-list/tunga",
+      "fontFile": null
+    },
+    {
+      "id": 41,
+      "name": "Shree Kannada 0802",
+      "foundry": "Modular Infotech",
+      "callout": "ಶ್ರೀ ಕನ್ನಡ ೦೮೦೨",
+      "type": "org",
+      "license": "Commercial",
+      "download": "https://www.akruti.com/",
+      "fontFile": null
+    }
+  ]
+}

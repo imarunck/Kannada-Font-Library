@@ -1,0 +1,210 @@
+/* --------------------------------------------------
+   Global Design Tokens
+-------------------------------------------------- */
+:root {
+  --brand: #AF1C2E;
+  --bg: #f7f4f4;
+  --text: #111;
+  --typebox: #ffffff;
+  --muted: #6b6b6b;
+  --border: #ddd;
+}
+
+/* --------------------------------------------------
+   Base / Reset
+-------------------------------------------------- */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+
+  font-family: "Anek Kannada", system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+
+/* --------------------------------------------------
+   Header
+-------------------------------------------------- */
+header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+header h1 {
+  margin-bottom: 8px;
+  color: var(--brand);
+}
+
+/* --------------------------------------------------
+   Controls Bar
+-------------------------------------------------- */
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 12px 16px;
+
+  background: var(--typebox);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Inputs & Selects */
+.controls select,
+.controls input {
+  height: 40px;
+  padding: 0 12px;
+
+  font-family: inherit;
+  font-size: 15px;
+
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: #fafafa;
+  color: var(--text);
+
+  outline: none;
+}
+
+/* Main test text field */
+#testText {
+  flex: 1;
+  min-width: 240px;
+}
+
+/* Hover / Focus */
+.controls select:hover,
+.controls input:hover {
+  border-color: var(--muted);
+}
+
+.controls select:focus,
+.controls input:focus {
+  border-color: var(--brand);
+  background: #fff;
+}
+
+/* --------------------------------------------------
+   Table
+-------------------------------------------------- */
+table {
+  width: 100%;
+  table-layout: fixed; /* critical for column control */
+  border-collapse: collapse;
+  background: var(--typebox);
+}
+
+/* Headers & Cells */
+th,
+td {
+  padding: 12px;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background: var(--brand);
+  color: #fff;
+  font-weight: 500;
+}
+
+/* --------------------------------------------------
+   Font Preview Column
+-------------------------------------------------- */
+th:first-child,
+td.preview {
+  width: 70%;
+  max-width: 70%;
+}
+
+td.preview {
+  font-size: 38px;
+  line-height: 1.4;
+
+  background: #fafafa;
+  border-right: 2px solid var(--border);
+
+  white-space: nowrap;     /* keeps preview on one line */
+  overflow-x: auto;        /* allows scrolling for long text */
+}
+
+.size-control {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  font-size: 13px;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.size-control input[type="range"] {
+  width: 120px;
+  cursor: pointer;
+}
+
+
+/* --------------------------------------------------
+   Links
+-------------------------------------------------- */
+a {
+  color: var(--brand);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* --------------------------------------------------
+   Responsive
+-------------------------------------------------- */
+@media (max-width: 768px) {
+  body {
+    padding: 12px;
+  }
+
+  .controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .controls select,
+  .controls input {
+    width: 100%;
+  }
+
+  td.preview {
+    font-size: 22px;
+  }
+}
+
+.font-count {
+  padding: 8px 14px;
+  font-size: 14px;
+  white-space: nowrap;
+
+  background: #fafafa;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+
+  color: var(--muted);
+}
