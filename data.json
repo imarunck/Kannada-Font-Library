@@ -45,6 +45,7 @@
       "id": 4,
       "name": "Anek Kannada",
       "foundry": "ekType",
+      "foundryUrl": "https://ektype.in/",
       "callout": "ಅನೆಕ ಕನ್ನಡ",
       "type": "org",
       "license": "OFL",
@@ -97,7 +98,8 @@
       "id": 9,
       "name": "Akaya Kanadaka",
       "foundry": "Vaishnavi Murthy",
-      "callout": "ಅಕಯ ಕನಡಕ",
+            "foundryUrl": "https://www.instagram.com/curious.characters/",
+      "callout": "ಅಕಯ ಕನ್ನಡ",
       "type": "individual",
       "license": "OFL",
       "download": "https://fonts.google.com/specimen/Akaya+Kanadaka",
@@ -107,7 +109,8 @@
       "id": 10,
       "name": "Anchu",
       "foundry": "Arun CK",
-      "callout": "ಅಂಚು",
+      "foundryUrl": "https://type.arunck.com/about/",
+      "callout": "ಅಂಚು ಕನ್ನಡ",
       "type": "individual",
       "license": "OFL",
       "download": "https://type.arunck.com/fonts/anchu/",
@@ -350,16 +353,7 @@
       "fontFile": null
     },
 
-    {
-      "id": 34,
-      "name": "Akhand Kannada",
-      "foundry": "Indian Type Foundry",
-      "callout": "ಅಖಂಡ ಕನ್ನಡ",
-      "type": "org",
-      "license": "Commercial",
-      "download": "https://www.indiantypefoundry.com/fonts",
-      "fontFile": null
-    },
+
     {
       "id": 35,
       "name": "Belur Kannada",
@@ -370,16 +364,7 @@
       "download": "https://www.indiantypefoundry.com/fonts",
       "fontFile": null
     },
-    {
-      "id": 36,
-      "name": "Kohinoor Kannada",
-      "foundry": "Indian Type Foundry",
-      "callout": "ಕೋಹಿನೂರ್ ಕನ್ನಡ",
-      "type": "org",
-      "license": "Commercial",
-      "download": "https://www.indiantypefoundry.com/fonts",
-      "fontFile": null
-    },
+
     {
       "id": 37,
       "name": "Sandur Kannada",
@@ -391,26 +376,8 @@
       "fontFile": null
     },
 
-    {
-      "id": 38,
-      "name": "Adobe Kannada",
-      "foundry": "Adobe",
-      "callout": "ಅಡೋಬ್ ಕನ್ನಡ",
-      "type": "org",
-      "license": "Commercial",
-      "download": "https://www.adobe.com/",
-      "fontFile": null
-    },
-    {
-      "id": 39,
-      "name": "Nirmala UI Kannada",
-      "foundry": "Microsoft",
-      "callout": "ನಿರ್ಮಲಾ ಯುಐ ಕನ್ನಡ",
-      "type": "org",
-      "license": "Commercial",
-      "download": "https://learn.microsoft.com/en-us/typography/font-list/nirmala-ui",
-      "fontFile": null
-    },
+
+
     {
       "id": 40,
       "name": "Tunga",

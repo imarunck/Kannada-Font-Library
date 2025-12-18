@@ -79,7 +79,13 @@ function render(fonts) {
 
           ${previewText}
         </td>
-        <td>${font.foundry}</td>
+        <td>
+          ${
+            font.foundryUrl
+              ? `<a href="${font.foundryUrl}" target="_blank" rel="noopener">${font.foundry}</a>`
+              : font.foundry
+          }
+        </td>
         <td>
           <a href="${font.download}" target="_blank" rel="noopener">
             Download
@@ -128,4 +134,9 @@ testTextInput.addEventListener("input", e => {
 fontSizeInput.addEventListener("input", e => {
   previewFontSize = e.target.value;
   applyFilters(); // re-render only
+});
+
+
+document.getElementById("resetControls").addEventListener("click", () => {
+  location.reload();
 });
