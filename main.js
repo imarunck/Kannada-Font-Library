@@ -74,10 +74,14 @@ function render(fonts) {
 
     table.innerHTML += `
       <tr>
-<td class="preview"
-    style="font-family:'${font.name}'; font-size:${previewFontSize}px">
-
-          ${previewText}
+        <td class="preview">
+          <div class="font-name">
+            ${font.name}
+          </div>
+          <div class="font-preview"
+               style="font-family:'${font.name}'; font-size:${previewFontSize}px">
+            ${previewText}
+          </div>
         </td>
         <td>
           ${

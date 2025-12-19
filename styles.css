@@ -241,6 +241,18 @@ td.preview {
   overflow-x: auto;
 }
 
+.font-name {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 4px;
+}
+
+.font-preview {
+  line-height: 1.4;
+}
+
+
 /* --------------------------------------------------
    Page Frame (Legal / Static pages)
 -------------------------------------------------- */
