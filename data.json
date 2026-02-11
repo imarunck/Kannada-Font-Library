@@ -154,7 +154,18 @@
       "license": "OFL",
       "download": "https://github.com/kishorechan/Nishchaya/archive/refs/heads/main.zip",
       "fontFile": "Nishchaya.ttf"
-    },    
+    }, 
+    
+        {
+      "id": 407,
+      "name": "RRIRAJU",
+      "foundry": " Sugata Srinivasaraju",
+      "callout": "ಶ್ರಿರಾಜು ಕನ್ನಡ",
+      "type": "individual",
+      "license": "OFL",
+      "download": "https://github.com/imarunck/Sri-Raju-Fonts/archive/refs/heads/main.zip",
+      "fontFile": "SRIRAJUB.ttf"
+    }, 
     {
       "id": 501,
       "name": "Karnata F-Kittel",
