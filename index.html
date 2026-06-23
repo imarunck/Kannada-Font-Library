@@ -2,13 +2,43 @@
 <html lang="kn">
 <head>
   <meta charset="UTF-8" />
-  <title>Kannada Font Library</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kannada Font Library | Open Kannada Unicode Font Directory</title>
+  <meta name="description" content="Kannada Font Library is an open-source directory on kfl.arunck.com for Kannada Unicode fonts, offering download links, license details, and font previews." />
+  <meta name="keywords" content="Kannada font library, Kannada fonts, Unicode Kannada, Kannada typefaces, Kannada font download, Kannada font directory" />
+  <meta name="robots" content="index, follow" />
+  <meta name="googlebot" content="index, follow" />
+  <meta property="og:title" content="Kannada Font Library | Open Kannada Unicode Font Directory" />
+  <meta property="og:description" content="Discover Kannada Unicode fonts, licensing, and downloads from the official Kannada Font Library at kfl.arunck.com." />
+  <meta property="og:url" content="https://kfl.arunck.com/" />
+  <meta property="og:site_name" content="Kannada Font Library" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="kn_IN" />
+  <meta property="og:image" content="https://kfl.arunck.com/assets/Open-Graph-image.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Kannada Font Library | Open Kannada Unicode Font Directory" />
+  <meta name="twitter:description" content="Discover Kannada Unicode fonts, licensing, and downloads from the official Kannada Font Library at kfl.arunck.com." />
+  <meta name="twitter:image" content="https://kfl.arunck.com/assets/Open-Graph-image.jpg" />
   <link rel="icon" href="/favicon.ico" />
   <link rel="stylesheet" href="styles.css">
   <link rel="canonical" href="https://kfl.arunck.com/" />
+  <link rel="alternate" hreflang="kn" href="https://kfl.arunck.com/" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "url": "https://kfl.arunck.com/",
+    "name": "Kannada Font Library",
+    "description": "Kannada Font Library is an open-source directory on kfl.arunck.com for Kannada Unicode fonts, offering download links, license details, and font previews."
+  }
+  </script>
 </head>
 
-<body>   <div class="page">
+<body>
+  <div class="page">
 
 
 <header class="site-header">
@@ -22,13 +52,20 @@
     Discover Kannada fonts from organizations and individuals
   </p>
 
-  <!-- SEO-only description (optional but powerful) -->
-  <span class="sr-only">
-    Kannada Font Library is an open-source directory of Kannada Unicode fonts,
-    including free, end-user, and commercial typefaces for designers, printers,
-    and Kannada language users. (Welcome to the Kannada Font Library - Discover an extensive collection of Kannada fonts available across the internet.
-Find copyright, Unicode specs, and download options for all available fonts. Easily download a variety of beautifully designed fonts that represent the native Kannada language. Our directory is a hub for font enthusiasts, offering a range of free fonts that capture the essence of Kannada. Discover fonts that combine modern design with the traditional Kannada script. Enhance your projects, documents, and art with our wide selection of Kannada fonts, designed to improve your digital communication. Explore the beauty of the Kannada script with Kannada Font Library.)
-  </span>
+  <p class="site-managed">
+    This project is managed by
+    <a class="cta-button" href="https://type.arunck.com/" target="_blank" rel="noopener noreferrer">type.arunck.com</a>
+  </p>
+
+  <div class="sr-only">
+    <p>
+      Kannada Font Library is an open-source project hosting the official Kannada font directory on kfl.arunck.com.
+      It brings Kannada Unicode fonts, license information, and download links into one canonical location.
+    </p>
+    <p>
+      This site is designed to be the trusted home for Kannada fonts and reduce duplicate listings by redirecting other references to the official KFL subdomain.
+    </p>
+  </div>
 </header>
 
 
@@ -72,6 +109,17 @@ Find copyright, Unicode specs, and download options for all available fonts. Eas
   ⟳
 </button>
 
+</section>
+
+
+<section class="filename-search">
+  <h2>Search by Font File Name</h2>
+  <input
+    type="text"
+    id="filenameInput"
+    placeholder="Enter font file name (e.g., Kannada, Baloo, Noto)..."
+    aria-label="Search fonts by file name" />
+  <div id="filenameResults" class="filename-results"></div>
 </section>
 
 

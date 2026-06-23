@@ -94,6 +94,33 @@ body {
   opacity: 1;
 }
 
+.site-managed {
+  margin: 12px auto 0;
+  color: var(--muted);
+  font-size: 0.96rem;
+}
+
+.site-managed .cta-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px;
+  padding: 10px 18px;
+  border-radius: 999px;
+  background: var(--brand);
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+}
+
+.site-managed .cta-button:hover,
+.site-managed .cta-button:focus-visible {
+  background: #8f1723;
+  box-shadow: 0 10px 24px rgba(175, 28, 46, 0.22);
+  transform: translateY(-1px);
+}
+
 /* --------------------------------------------------
    Controls Bar
 -------------------------------------------------- */
@@ -196,6 +223,80 @@ body {
   color: #fff;
 }
 
+/* --------------------------------------------------
+   Filename Search Section
+-------------------------------------------------- */
+.filename-search {
+  max-width: 1100px;
+  margin: 24px auto;
+  padding: 16px;
+  background: var(--typebox);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.filename-search h2 {
+  margin: 0 0 12px;
+  font-size: 1.1rem;
+  color: var(--text);
+}
+
+.filename-search input {
+  width: 100%;
+  height: 40px;
+  padding: 0 12px;
+  font-family: inherit;
+  font-size: 15px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: #fafafa;
+  color: var(--text);
+  outline: none;
+  margin-bottom: 12px;
+}
+
+.filename-search input:hover {
+  border-color: var(--brand);
+}
+
+.filename-search input:focus {
+  border-color: var(--brand);
+  background: var(--bg);
+}
+
+.filename-results {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  min-height: 20px;
+}
+
+.filename-results.empty {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.filename-item {
+  padding: 8px 12px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 14px;
+  color: var(--text);
+  font-family: monospace;
+  word-break: break-all;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.filename-item:hover {
+  background: var(--brand);
+  color: #fff;
+  border-color: var(--brand);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(175, 28, 46, 0.15);
+}
 
 /* --------------------------------------------------
    Table

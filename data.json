@@ -176,6 +176,46 @@
       "download": "https://github.com/sanchaya/karnata-f-kittel-font/archive/refs/heads/master.zip",
       "fontFile": "KarnataFKittel.otf"
     },
+    {
+      "id": 2026062401,
+      "name": "KarnataBandipur",
+      "foundry": "Sanchaya",
+      "callout": "ಕರ್ನಾಟಕ ಕಿಟ್ಟೆಲ್",
+      "type": "org",
+      "license": "OFL",
+      "download": "https://fonts.sanchaya.net/family/Karnata-Bandipur",
+      "fontFile": "KarnataBandipur.ttf"
+    },
+    {
+      "id": 2026062402,
+      "name": "KarnataGermanMissionPressTypeface",
+      "foundry": "Sanchaya",
+      "callout": "ಕರ್ನಾಟಕ ಕಿಟ್ಟೆಲ್",
+      "type": "org",
+      "license": "OFL",
+      "download": "https://fonts.sanchaya.net/family/Karnata-German-Mission-Press",
+      "fontFile": "KarnataGermanMissionPressTypeface.ttf"
+    },
+    {
+      "id": 2026062403,
+      "name": "KarnataGTN",
+      "foundry": "Sanchaya",
+      "callout": "ಕರ್ನಾಟಕ ಕಿಟ್ಟೆಲ್",
+      "type": "org",
+      "license": "OFL",
+      "download": "https://fonts.sanchaya.net/family/KarnataGTN",
+      "fontFile": "KarnataGTN-Black.ttf"
+    },
+    {
+      "id": 2026062404,
+      "name": "KarnataWesleyanMissionPress",
+      "foundry": "Sanchaya",
+      "callout": "ಕರ್ನಾಟಕ ಕಿಟ್ಟೆಲ್",
+      "type": "org",
+      "license": "OFL",
+      "download": "https://fonts.sanchaya.net/family/Karnata-Wesleyan-Mission-Press",
+      "fontFile": "KarnataWesleyanMissionPress.ttf"
+    },
 
     {
       "id": 601,
